@@ -93,7 +93,7 @@ We're storing in redis.
 
 subscribers are a set, but also have properties other than a single string.
 
-- topic:subscribers:tUUID set
+- subscribers:topic:tUUID set
   - sUUID[]
 
 - subscriber:sUUID hash
@@ -111,7 +111,6 @@ subscribers are a set, but also have properties other than a single string.
   - timestamp
   - next
   - data
-
 
 - at:<seconds> list
   - eUUID
